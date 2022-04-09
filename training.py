@@ -27,7 +27,7 @@ Y = np.array([0,1,1,0]).reshape(4,)
 print(Y)
 
 
-model = sklearn.neural_network.MLPClassifier(activation='relu', max_iter=1000, hidden_layer_sizes=(4,2))
+model = sklearn.neural_network.MLPClassifier(activation='relu', max_iter=10000, hidden_layer_sizes=(4,2))
 model.fit(X,Y)
 
 
